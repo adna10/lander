@@ -2,7 +2,7 @@ body{
       margin: 0;
      font-family: Arial, Helvetica, sans-serif;
 }
-
+/* nav - logo ... - btB hover */
 nav{
     height: 70px;
     width: 100%;
@@ -85,7 +85,7 @@ padding: 12px;
     cursor: pointer;
 }
 
-/*header */
+/*header - us - span */
 
 header {
        background-color:#f38e59;
