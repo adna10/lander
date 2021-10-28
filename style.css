@@ -85,6 +85,8 @@ padding: 12px;
     cursor: pointer;
 }
 
+/*header */
+
 header {
        background-color:#f38e59;
        height: 350px;
@@ -103,6 +105,10 @@ span{
     font-size: 20px;
 }
 
+
+
+
+/* main left and right */
 main{
     display: flex;
 }
@@ -279,7 +285,7 @@ footer ul{
 .footer_button{
     padding: 15px;
     width: 150px;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 10px;
     border-style: none;
     border-radius: 5px;
@@ -302,8 +308,7 @@ footer ul{
 }
 
 
-/* "footer" footer bottom   */
-/* "footer" style de footer bottom  */
+/*footer " lading page " */
 .footer_bottom{
     background-color: #333333;
     height: 40px;
