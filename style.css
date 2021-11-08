@@ -4,7 +4,7 @@ body{
 }
 /* nav - logo ... - btB hover */
 nav{
-    height: 70px;
+    height: 40px;
     width: 100%;
     background-color: #f38e59;
     padding-top: 15px;
@@ -17,9 +17,9 @@ nav{
 }
 
 .LOGO{
-    width: 150px;
-    height: 60px;
-    margin-left: 130px;
+    width: 140px;
+    height: 50px;
+    margin-left: 90px;
 
 }
 
@@ -29,8 +29,8 @@ ul{
 
 nav li{
     display: inline;
-    font-size: 20px;
-    margin-left: 80px;
+    font-size: 13px;
+    margin-left: 70px;
 }
 
 nav a{
@@ -56,12 +56,12 @@ nav a{
     color: white;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
-    border-radius: 7px;
-    font-size: 12px;
-    padding: 12px;
-    margin-left: 100px;
-    margin-top: 5px;
+    border-width: 1.5px;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 6px;
+    margin-left: 80px;
+
 }
 
 .btA:hover{
@@ -74,10 +74,10 @@ background-color:#f38e59;
 color: white;
 border-style: solid;
 border-color: white;
-border-width: 3px;
-border-radius: 7px;
-font-size: 12px;
-padding: 12px;
+border-width: 1.5px;
+border-radius: 5px;
+font-size: 10px;
+padding: 6px;
 }
 
 .btB:hover{
@@ -126,9 +126,9 @@ main{
 #tous{
     margin-top: 60px;
     margin-bottom: 0px;
-    margin-left: 140px;
+    margin-left: 100px;
     color: rgb(20, 180, 220);
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
@@ -137,24 +137,29 @@ main{
     margin-bottom: 0px;
     margin-left: 0px;
     color: rgb(20, 180, 220);
-    font-size: 40px;
+    font-size: 30px;
 }
 
-p{
-    font-size: 20px;
+P{
+    font-size: 15px;
+}
+
+.mainlef P{
+    margin-left: 100px;
 }
 
 .mainlef form{
     display: flex;
     flex-direction: column;
     margin-top:0px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 .mainlef input,textarea{
-    margin-top: 30px;
+    margin-top: 20px;
     height: 35px;
-    width: 530px;
+    width: 400px;
+    border-width:1.5px;
     border-radius: 7px;
     border-style: solid;
     border-color: rgb(156, 156, 156);
@@ -163,21 +168,18 @@ p{
 }
 
 textarea{
-    height: 140px;
-    border-width:2px;
+    height: 120px;
+    border-width:1.5px;
     font-size: 14px;
     padding-top: 7px;
 }
 
-.mainlef P{
-    margin-left: 140px;
-}
 
 .btn{
-   width: 100px;
+   width: 90px;
     display: flex;
     float: left;
-    margin-left: 445px;
+    margin-left: 325px;
 }
 
 .login_submit{
@@ -185,7 +187,7 @@ textarea{
    background-color: chocolate;
     border-style: solid;
     border-color: white;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .login_submit:hover{
@@ -194,13 +196,14 @@ textarea{
 }
 
 .social_links{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .social_links h2{
     color: #373737;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 40px;
 }
 
 .main_right i{
@@ -209,8 +212,8 @@ textarea{
 }
 
 .social_links p{
-    margin-left: 60px;
-    font-size: 20px;
+    margin-left: 75px;
+    font-size: 16px;
 }
 
 #twitter_icon, #linkedin_icon,#facebook_icon{
@@ -265,7 +268,7 @@ footer ul{
     list-style: none;
     color: #8c8c8c;
     margin-top: 20px;
-    
+    font-size: 13px;
 }
 
 /* "footer" titel de chac list   */
@@ -323,7 +326,9 @@ footer ul{
 /* "footer" color de text   */
 .footer_bottom p{
     color: #909090;
-    margin-left: 230px;
+    margin-left: 180px;
+    font-size: 12px;
+    
 }
 
 /* "footer" style de "a"  */
